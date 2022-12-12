@@ -1,9 +1,9 @@
 FROM alpine:edge
 
-ARG AUUID="d1bed8d6-c3cd-49e1-b9b3-ab45d6b66da4"
+ARG AUUID="07bbaca1-f03e-4d9e-b930-dc58b0e78ea4"
 ARG CADDYIndexPage="https://www.free-css.com/assets/files/free-css-templates/download/page278/catalog-z.zip"
 ARG ParameterSSENCYPT="chacha20-ietf-poly1305"
-ARG PORT=8080
+ARG PORT=8000
 
 ADD etc/Caddyfile /tmp/Caddyfile
 ADD etc/xray.json /tmp/xray.json
